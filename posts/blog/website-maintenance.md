@@ -1,12 +1,17 @@
-![person holding ballpoint pen writing on white paper](/posts/person%20holding%20ballpoint%20pen%20writing%20on%20white%20paper.jpg)
+![person holding light bulb](/posts/websitedevelopment.jpg)
 
-# Heading One
 
-## Heading Two
 
-### Heading Three
+## Website maintenance
 
-#### Heading Four
+Creating a website that is functional and looks great is just a half of a journey. For your online presence to be successful over time, your site must be regularly updated with the latest content. On the other hand, in order to provide your users with a safe and quality interactive experience, regular technical maintenance is necessary.
+If you want to attract and retain users and search engine on your site, you must be familiar with how to maintain your site from a qualitative and technical point of view. For free tips and monthly site maintenance offers, feel free to contact us.
+
+
+### How can i apply?
+You should go to the  [Hire me](http://localhost:3000/hire-me)  page and send a link to your existing website, a brief description of your requirements. Then we will schedule a meeting to get to know each other and try to find suitable plan for you.
+
+<!-- #### Heading Four
 
 ##### Heading Five
 
@@ -120,3 +125,4 @@ to install nextjs simply run `npx create-next-app appname`
    ```
 
 4. Replace appName with your website name.
+ -->

@@ -52,10 +52,7 @@ const HireMe: NextPage = (props) => {
                 What can I do for you?
               </Typography>
               <Typography component="p" variant="body1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
-                laborum similique voluptas pariatur a doloremque facilis minima
-                quam dolores eveniet eaque aspernatur modi hic? Quod sunt in
-                recusandae adipisci possimus?
+                 Please send a short description of your project, and I will reply as soon as possible.
               </Typography>
             </Box>
           </Grid>

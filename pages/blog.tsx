@@ -23,7 +23,7 @@ const Blog: NextPage = (props) => {
         textAlign="center"
         variant="h2"
       >
-        Blog
+        Services
       </Typography>
       <Typography
         color="text.secondary"
@@ -32,7 +32,7 @@ const Blog: NextPage = (props) => {
         textAlign="center"
         variant="body1"
       >
-        Be up to date in photography and design
+        What can i do for you?
       </Typography>
       {blogPosts ? (
         <ContainerGrid sx={{ padding: { xs: '1rem', sm: '2rem' } }}>

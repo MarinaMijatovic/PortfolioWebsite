@@ -27,7 +27,7 @@ const InstagramIconLink: React.FunctionComponent<InstagramIconLinkProps> = (
 ) => {
   const {
     anchorStyles,
-    href = '#',
+    href = 'https://www.instagram.com/marinamijatovic95/',
     iconColor = 'inherit',
     iconSize = 'inherit',
     ...otherProps

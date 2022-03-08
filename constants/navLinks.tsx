@@ -39,7 +39,7 @@ const navLinks: NavLink[] = [
     buttonProps: { color: 'info' },
     href: '/blog',
     Icon: <TextSnippetIcon color="inherit" fontSize="inherit" />,
-    label: 'Blog',
+    label: 'Services',
     order: 3,
     sidebarOrder: 2,
     sidebarVisible: true,

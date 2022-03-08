@@ -1,12 +1,14 @@
-![water droplets on glass window](/posts/water%20droplets%20on%20glass%20window.jpg)
+![software development](/posts/person%20holding%20ballpoint%20pen%20writing%20on%20white%20paper.jpg)
 
-# Heading One
+## Math & Programming education
 
-## Heading Two
+Whether you are a beginner and have no programming experience, or want to improve your existing skills, you can apply for mentoring classes. Teamwork is provided for the participants on a real project, as a simulation of what awaits you in your future career. The best participants will be given the opportunity for employment and further cooperation.
 
-### Heading Three
 
-#### Heading Four
+### How can i apply?
+You should go to the  [Hire me](http://localhost:3000/hire-me)  page and send technologies that you want to learn, and your level of expertise. We will contact you with the suggested learning path, schedule and pricing plan as soon as possible.
+
+<!-- #### Heading Four
 
 ##### Heading Five
 
@@ -120,3 +122,4 @@ to install nextjs simply run `npx create-next-app appname`
    ```
 
 4. Replace appName with your website name.
+ -->

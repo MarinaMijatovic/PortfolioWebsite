@@ -1,5 +1,5 @@
 // react
-import * as React from 'react';
+import * as React from "react";
 // @mui
 import {
   Container,
@@ -8,30 +8,31 @@ import {
   GridProps,
   Typography,
   styled,
-} from '@mui/material';
+} from "@mui/material";
 // custom component
-import ContainerGrid from 'components/common/ContainerGrid';
-import SkillProgress from 'components/common/SkillProgress';
+import ContainerGrid from "components/common/ContainerGrid";
+import SkillProgress from "components/common/SkillProgress";
 // custom icons
-import IllustratorCCIcon from 'components/icon/IllustratorCC';
-import LightroomCCIcon from 'components/icon/LightroomCC';
-import PhotoshopIcon from 'components/icon/Photoshop';
+import IllustratorCCIcon from "components/icon/IllustratorCC";
+import LightroomCCIcon from "components/icon/LightroomCC";
+import ReactJS from "components/icon/Photoshop";
+
 // context
-import ComponentsContext from 'context/componentsContext';
+import ComponentsContext from "context/componentsContext";
 // type
 interface SkillsProps {}
 
 const CustomContainer = styled(Container)<ContainerProps>(({ theme }) => ({
-  marginBottom: '5rem',
-  marginTop: '5rem',
-  scrollMarginTop: '2rem',
+  marginBottom: "5rem",
+  marginTop: "5rem",
+  scrollMarginTop: "2rem",
 }));
 
 const CustomGridItem = styled(Grid)<GridProps>(({ theme }) => ({
-  alignItems: 'center',
-  display: 'flex',
-  justifyContent: 'center',
-  marginBottom: '2rem',
+  alignItems: "center",
+  display: "flex",
+  justifyContent: "center",
+  marginBottom: "2rem",
 }));
 
 const Skills: React.FunctionComponent<SkillsProps> = (props) => {
@@ -39,29 +40,87 @@ const Skills: React.FunctionComponent<SkillsProps> = (props) => {
 
   const skills = [
     {
-      Icon: (
-        <PhotoshopIcon bgColor="white" textColor="tomato" fontSize="large" />
-      ),
-      title: 'Photoshop',
-      progressValue: 78,
+      // Icon: <ReactJS bgColor="white" textColor="tomato" fontSize="large" />,
+      title: "ReactJS",
+      progressValue: 80,
     },
     {
-      Icon: (
-        <LightroomCCIcon bgColor="white" textColor="tomato" fontSize="large" />
-      ),
-      title: 'Lightroom',
-      progressValue: 83,
+      // Icon: <ReactJS bgColor="white" textColor="tomato" fontSize="large" />,
+      title: "NextJs",
+      progressValue: 70,
     },
     {
-      Icon: (
-        <IllustratorCCIcon
-          bgColor="white"
-          textColor="tomato"
-          fontSize="large"
-        />
-      ),
-      title: 'Illustrator',
-      progressValue: 97,
+      // Icon: (
+      //   <LightroomCCIcon bgColor="white" textColor="tomato" fontSize="large" />
+      // ),
+      title: "HTML/CSS",
+      progressValue: 100,
+    },
+    {
+      // Icon: (
+      //   <IllustratorCCIcon
+      //     bgColor="white"
+      //     textColor="tomato"
+      //     fontSize="large"
+      //   />
+      // ),
+      title: "Flutter",
+      progressValue: 45,
+    },
+    {
+      // Icon: (
+      //   <IllustratorCCIcon
+      //     bgColor="white"
+      //     textColor="tomato"
+      //     fontSize="large"
+      //   />
+      // ),
+      title: "Javascript",
+      progressValue: 80,
+    },
+    {
+      // Icon: (
+      //   <IllustratorCCIcon
+      //     bgColor="white"
+      //     textColor="tomato"
+      //     fontSize="large"
+      //   />
+      // ),
+      title: "Python",
+      progressValue: 75,
+    },
+{
+      // Icon: (
+      //   <IllustratorCCIcon
+      //     bgColor="white"
+      //     textColor="tomato"
+      //     fontSize="large"
+      //   />
+      // ),
+      title: "Wordpress",
+      progressValue: 70,
+    },
+{
+      // Icon: (
+      //   <IllustratorCCIcon
+      //     bgColor="white"
+      //     textColor="tomato"
+      //     fontSize="large"
+      //   />
+      // ),
+      title: "Firebase",
+      progressValue: 75,
+    },
+{
+      // Icon: (
+      //   <IllustratorCCIcon
+      //     bgColor="white"
+      //     textColor="tomato"
+      //     fontSize="large"
+      //   />
+      // ),
+      title: "C&C++",
+      progressValue: 75,
     },
   ];
 
