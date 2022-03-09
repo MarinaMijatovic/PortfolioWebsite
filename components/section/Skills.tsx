@@ -15,10 +15,16 @@ import SkillProgress from "components/common/SkillProgress";
 // custom icons
 import IllustratorCCIcon from "components/icon/IllustratorCC";
 import LightroomCCIcon from "components/icon/LightroomCC";
-import ReactJS from "components/icon/Photoshop";
-
+import ReactJS from "components/icon/ReactJS";
+import Javascript from "components/icon/Javascript";
 // context
 import ComponentsContext from "context/componentsContext";
+import Flutter from "components/icon/Flutter";
+import HTML from "components/icon/HTML";
+import WordPress from "components/icon/Wordpress";
+import Firebase from "components/icon/Firebase";
+import Python from "components/icon/Python";
+import Cpp from "components/icon/Cpp";
 // type
 interface SkillsProps {}
 
@@ -40,85 +46,85 @@ const Skills: React.FunctionComponent<SkillsProps> = (props) => {
 
   const skills = [
     {
-      // Icon: <ReactJS bgColor="white" textColor="tomato" fontSize="large" />,
+      Icon: <ReactJS bgColor="white" textColor="tomato" fontSize="large" />,
       title: "ReactJS",
       progressValue: 80,
     },
     {
-      // Icon: <ReactJS bgColor="white" textColor="tomato" fontSize="large" />,
+      Icon: <ReactJS bgColor="white" textColor="tomato" fontSize="large" />,
       title: "NextJs",
       progressValue: 70,
     },
     {
-      // Icon: (
-      //   <LightroomCCIcon bgColor="white" textColor="tomato" fontSize="large" />
-      // ),
+      Icon: (
+        <HTML bgColor="white" textColor="tomato" fontSize="large" />
+      ),
       title: "HTML/CSS",
-      progressValue: 100,
+      progressValue: 90,
     },
     {
-      // Icon: (
-      //   <IllustratorCCIcon
-      //     bgColor="white"
-      //     textColor="tomato"
-      //     fontSize="large"
-      //   />
-      // ),
+      Icon: (
+        <Flutter
+          bgColor="white"
+          textColor="tomato"
+          fontSize="large"
+        />
+      ),
       title: "Flutter",
       progressValue: 45,
     },
     {
-      // Icon: (
-      //   <IllustratorCCIcon
-      //     bgColor="white"
-      //     textColor="tomato"
-      //     fontSize="large"
-      //   />
-      // ),
+      Icon: (
+        <Javascript
+          bgColor="white"
+          textColor="tomato"
+          fontSize="large"
+        />
+      ),
       title: "Javascript",
       progressValue: 80,
     },
     {
-      // Icon: (
-      //   <IllustratorCCIcon
-      //     bgColor="white"
-      //     textColor="tomato"
-      //     fontSize="large"
-      //   />
-      // ),
+      Icon: (
+        <Python
+          bgColor="white"
+          textColor="tomato"
+          fontSize="large"
+        />
+      ),
       title: "Python",
       progressValue: 75,
     },
-{
-      // Icon: (
-      //   <IllustratorCCIcon
-      //     bgColor="white"
-      //     textColor="tomato"
-      //     fontSize="large"
-      //   />
-      // ),
+    {
+      Icon: (
+        <WordPress
+          bgColor="white"
+          textColor="tomato"
+          fontSize="large"
+        />
+      ),
       title: "Wordpress",
       progressValue: 70,
     },
-{
-      // Icon: (
-      //   <IllustratorCCIcon
-      //     bgColor="white"
-      //     textColor="tomato"
-      //     fontSize="large"
-      //   />
-      // ),
+    {
+      Icon: (
+        <Firebase
+          bgColor="white"
+          textColor="tomato"
+          fontSize="large"
+        />
+      ),
       title: "Firebase",
       progressValue: 75,
     },
-{
-      // Icon: (
-      //   <IllustratorCCIcon
-      //     bgColor="white"
-      //     textColor="tomato"
-      //     fontSize="large"
-      //   />
-      // ),
+    {
+      Icon: (
+        <Cpp
+          bgColor="white"
+          textColor="tomato"
+          fontSize="large"
+        />
+      ),
       title: "C&C++",
       progressValue: 75,
     },

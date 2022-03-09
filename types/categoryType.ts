@@ -1,3 +1,3 @@
-export type BlogPostCategory = 'photography' | 'wordpress' | 'react&next' | 'flutter' | 'html&css&vanillajs' | "python";
+export type BlogPostCategory = 'development' | 'wordpress' | 'react & next' | 'flutter' | 'teaching' | "python";
 
-export type ProjectCategory = 'photography' | 'wordpress' | 'react&next' | 'flutter' | 'html&css&vanillajs' | "python";
+export type ProjectCategory = 'photography' | 'wordpress' | 'react & next' | 'flutter' | 'html & css & vanillajs' | "python";

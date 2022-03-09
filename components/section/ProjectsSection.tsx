@@ -52,7 +52,7 @@ const ProjectsSection: React.FunctionComponent<ProjectsSectionProps> = (
           break;
         case 'React&NextJS':
           const designProjects = newProjectsArray.filter((project) =>
-            project.category.includes('react&next')
+            project.category.includes('react & next')
           );
           setProjectsToRender(designProjects);
           break;

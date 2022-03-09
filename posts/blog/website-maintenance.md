@@ -1,4 +1,4 @@
-![person holding light bulb](/posts/websitedevelopment.jpg)
+![person holding light bulb](/posts/maintenance.png)
 
 
 

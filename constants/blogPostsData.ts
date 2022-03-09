@@ -7,7 +7,7 @@ import { BlogPost } from 'types/blogPostType';
 
 const blogPosts: BlogPost[] = [
   createPost({
-    category: ['photography'],
+    category: ['development'],
     date: dayjs().subtract(6, 'week'),
     id: 'custom-software-development',
     image: {
@@ -21,21 +21,21 @@ const blogPosts: BlogPost[] = [
     title: 'Custom software development',
   }),
   createPost({
-    category: ['design'],
+    category: ['development'],
     date: dayjs().subtract(3, 'week'),
     id: 'website-maintenance',
     image: {
       alt: 'website maintenance',
       height: 2400,
       likes: 126,
-      src: '/posts/websitedevelopment.jpg',
+      src: '/posts/maintenance.png',
       width: 1920,
     },
     filename: 'website-maintenance',
     title: 'Website maintenance',
   }),
   createPost({
-    category: ['design'],
+    category: ['development','teaching'],
     date: dayjs().subtract(6, 'day'),
     id: 'tutoring',
     image: {
@@ -49,14 +49,14 @@ const blogPosts: BlogPost[] = [
     title: 'Tutoring',
   }),
   createPost({
-    category: ['photography'],
+    category: ['development'],
     date: dayjs().subtract(2, 'week'),
     id: 'website-development',
     image: {
-      alt: 'water droplets on glass window',
+      alt: 'Website development',
       height: 2880,
       likes: 77,
-      src: '/posts/tutoring.jpg',
+      src: '/posts/development3.jpg',
       width: 1920,
     },
     filename: 'website-development',

@@ -5,7 +5,7 @@ Development of desktop python application for tracking teaching hours, calculati
 #### Technologies
 Python
 #### Note:
-New version that should come in april, with new functionalities will be made in Flutter with firebase. Desktop, mobile and
+New version that should come in april, with new functionalities will be made in Flutter with Firebase. Desktop, mobile and
 web application will be supported.
 
 #### Approximate project time duration:
@@ -13,3 +13,23 @@ web application will be supported.
 #### Approximate updated version time duration
 120h
 
+#### Code example
+```jsx
+final_earning = Label(text = "0", bg = GREEN)
+final_earning.grid(row = 5, column = 3)
+
+#Buttons
+calculate_Earning_button = Button(text = "Izracunaj zaradu", command=calculateEarning)
+calculate_Earning_button.grid(row = 0, column = 2, columnspan = 2)
+
+#Show date of calculating earning
+
+now = dt.datetime.now()
+year = now.year
+month = now.month
+day = now.day
+date_label = Label(text = f"DATUM OBRACUNA: {day}.{month}.{year}.", bg=GREEN)
+date_label.grid(row = 5, column  =0, pady=30)
+
+window.mainloop()
+```

@@ -48,7 +48,7 @@ const projectsData: Project[] = [
       {
         alt: "Teaching monitoring application",
         height: 859,
-        likes: 876,
+        likes: 556,
         src: "/projects/app/app.PNG",
         width: 1204,
       },
@@ -62,7 +62,7 @@ const projectsData: Project[] = [
     ],
   }),
   ProjectConstructor({
-    category: ["html&css&vanillajs", "react&next"],
+    category: ["html & css & vanillajs", "react & next"],
     date: dayjs().subtract(4, "week"),
     id: "crypto",
     postFileName: "crypto",
@@ -94,17 +94,31 @@ const projectsData: Project[] = [
       {
         alt: "Privatni casovi",
         height: 859,
-        likes: 543,
-        src: "/projects/privatnicasovi/privatni-pocetna.jpg",
+        likes: 123,
+        src: "/projects/privatnicasovi/privatni1.PNG",
         width: 1204,
       },
-      /* {
+      {
         alt: "From our classes",
         height: 4032,
-        likes: 2343,
-        src: "/projects/privatnicasovi/italijan.jpg",
+        likes: 143,
+        src: "/projects/privatnicasovi/privatni2.PNG",
         width: 3024,
-      }, */
+      }, 
+      {
+        alt: "Contact",
+        height: 4032,
+        likes: 243,
+        src: "/projects/privatnicasovi/privatni3.PNG",
+        width: 3024,
+      },
+       {
+        alt: "Contact",
+        height: 4032,
+        likes: 234,
+        src: "/projects/privatnicasovi/privatni4.PNG",
+        width: 3024,
+      },
     ],
   }),
   
@@ -119,16 +133,30 @@ const projectsData: Project[] = [
         alt: "HHOADA",
         height: 859,
         likes: 224,
-        src: "/projects/hhoada/hhoada2.PNG",
+        src: "/projects/hhoada/hhoada5.PNG",
         width: 1204,
       },
-      /* {
-        alt: "From our classes",
+       {
+        alt: "HHOADA",
         height: 4032,
-        likes: 2343,
-        src: "/projects/privatnicasovi/italijan.jpg",
+        likes: 378,
+        src: "/projects/hhoada/hhoada1.PNG",
         width: 3024,
-      }, */
+      }, 
+       {
+        alt: "HHOADA",
+        height: 4032,
+        likes: 343,
+        src: "/projects/hhoada/hhoada3.PNG",
+        width: 3024,
+      }, 
+       {
+        alt: "HHOADA",
+        height: 4032,
+        likes: 224,
+        src: "/projects/hhoada/hhoada4.PNG",
+        width: 3024,
+      }, 
     ],
   }),
 ];
