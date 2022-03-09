@@ -49,7 +49,7 @@ const projectsData: Project[] = [
         alt: "Teaching monitoring application",
         height: 859,
         likes: 556,
-        src: "/projects/app/app.PNG",
+        src: "/projects/app/app.png",
         width: 1204,
       },
       /* {
