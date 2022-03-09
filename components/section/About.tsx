@@ -156,7 +156,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
               <CardContent>
                 <Typography component="p" variant="body1">
                   <i>2010-2014</i> <br />
-                  <b>High School "Jovan Jovanović Zmaj"</b> <br />
+                  <b>High School `&quot;`Jovan Jovanović Zmaj`&quot;`</b> <br />
                   Class for talented students in math gymnasium. Principal
                   skills covered: math, physics, programming and algorithms.
                   <br /> <br />
