@@ -34,12 +34,12 @@ const ContactForm: React.FunctionComponent<ContactFormProps> = (props) => {
       <CardHeader
         title={
           <Typography color="primary" component="h2" variant="h5">
-            Contact me
+            Contact form
           </Typography>
         }
         subheader={
            <Typography component="p" variant="subtitle1" color="text.disabled">
-            Let &apos;s connect!
+            Get in touch
           </Typography >
         }
       />
