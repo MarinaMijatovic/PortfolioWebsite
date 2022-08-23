@@ -53,7 +53,7 @@ const Skills: React.FunctionComponent<SkillsProps> = (props) => {
     {
       Icon: <ReactJS bgColor="white" textColor="tomato" fontSize="large" />,
       title: "NextJs",
-      progressValue: 70,
+      progressValue: 80,
     },
     {
       Icon: (
@@ -71,7 +71,7 @@ const Skills: React.FunctionComponent<SkillsProps> = (props) => {
         />
       ),
       title: "Flutter",
-      progressValue: 45,
+      progressValue: 75,
     },
     {
       Icon: (

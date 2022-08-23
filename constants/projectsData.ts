@@ -39,14 +39,118 @@ const ProjectConstructor = (props: ProjectDetails): Project => {
 
 const projectsData: Project[] = [
   ProjectConstructor({
-    category: ["python","flutter"],
+    category: ["react & next"],
+    date: dayjs().subtract(4, "week"),
+    id: "yippiyay",
+    postFileName: "yippiyay",
+    title: "YippiYay website",
+    images: [
+      {
+        alt: "YippiYay website",
+        height: 768,
+        likes: 404,
+        src: "/projects/yippiyay/yippiyay1.png",
+        width: 404,
+      },
+      {
+        alt: "YippiYay website",
+        height: 4032,
+        likes: 2343,
+        src: "/projects/yippiyay/yippiyay2.png",
+        width: 3024,
+      },
+      {
+        alt: "YippiYay website",
+        height: 4032,
+        likes: 2343,
+        src: "/projects/yippiyay/yippiyay5.png",
+        width: 3024,
+      },
+      {
+        alt: "YippiYay website",
+        height: 4032,
+        likes: 2343,
+        src: "/projects/yippiyay/yippiyay4.png",
+        width: 3024,
+      },
+ {
+        alt: "YippiYay website",
+        height: 4032,
+        likes: 2343,
+        src: "/projects/yippiyay/yippiyay3.png",
+        width: 3024,
+      },
+      {
+        alt: "YippiYay website",
+        height: 4032,
+        likes: 2343,
+        src: "/projects/yippiyay/yippiyay6.png",
+        width: 3024,
+      },
+    ],
+  }),
+  ProjectConstructor({
+    category: ["flutter", "sql"],
+    date: dayjs().subtract(4, "week"),
+    id: "imdb",
+    postFileName: "imdb",
+    title: "IMDB mobile application",
+    images: [
+      {
+        alt: "IMDB-like mobile application",
+        height: 859,
+        likes: 456,
+        src: "/projects/imdb/imdb1.png",
+        width: 1204,
+      },
+      {
+        alt: "IMDB-like mobile application",
+        height: 859,
+        likes: 456,
+        src: "/projects/imdb/imdb2.png",
+        width: 1204,
+      },
+      {
+        alt: "IMDB-like mobile application",
+        height: 859,
+        likes: 456,
+        src: "/projects/imdb/imdb3.png",
+        width: 1204,
+      },
+    ],
+  }),
+  ProjectConstructor({
+    category: ["flutter", "firebase"],
+    date: dayjs().subtract(4, "week"),
+    id: "ediary",
+    postFileName: "knowlogy",
+    title: "E-diary mobile application - Flutter & Firebase",
+    images: [
+      {
+        alt: "E-diary mobile application",
+        height: 859,
+        likes: 456,
+        src: "/projects/knowlogy/knowlogy.png",
+        width: 1204,
+      },
+      /* {
+        alt: "From our classes",
+        height: 4032,
+        likes: 2343,
+        src: "/projects/app/app.jpg",
+        width: 3024,
+      }, */
+    ],
+  }),
+  ProjectConstructor({
+    category: ["python", "firebase"],
     date: dayjs().subtract(4, "week"),
     id: "app",
     postFileName: "app",
-    title: "Teaching monitoring application - Python/Flutter&Firebase",
+    title: "Accounting software - Python & Firebase",
     images: [
       {
-        alt: "Teaching monitoring application",
+        alt: "Accounting software",
         height: 859,
         likes: 556,
         src: "/projects/app/app.png",
@@ -104,7 +208,7 @@ const projectsData: Project[] = [
         likes: 143,
         src: "/projects/privatnicasovi/privatni2.PNG",
         width: 3024,
-      }, 
+      },
       {
         alt: "Contact",
         height: 4032,
@@ -112,7 +216,7 @@ const projectsData: Project[] = [
         src: "/projects/privatnicasovi/privatni3.PNG",
         width: 3024,
       },
-       {
+      {
         alt: "Contact",
         height: 4032,
         likes: 234,
@@ -121,7 +225,7 @@ const projectsData: Project[] = [
       },
     ],
   }),
-  
+
   ProjectConstructor({
     category: ["wordpress"],
     date: dayjs().subtract(4, "week"),
@@ -136,27 +240,27 @@ const projectsData: Project[] = [
         src: "/projects/hhoada/hhoada5.PNG",
         width: 1204,
       },
-       {
+      {
         alt: "HHOADA",
         height: 4032,
         likes: 378,
         src: "/projects/hhoada/hhoada1.PNG",
         width: 3024,
-      }, 
-       {
+      },
+      {
         alt: "HHOADA",
         height: 4032,
         likes: 343,
         src: "/projects/hhoada/hhoada3.PNG",
         width: 3024,
-      }, 
-       {
+      },
+      {
         alt: "HHOADA",
         height: 4032,
         likes: 224,
         src: "/projects/hhoada/hhoada4.PNG",
         width: 3024,
-      }, 
+      },
     ],
   }),
 ];

@@ -1,0 +1,74 @@
+
+#### Short project description
+Website & webshop & blogsite for game for girls.
+
+#### Technologies
+NextJS, ReactJS, Prismic, WooCommerce
+
+
+
+
+#### Code example
+```jsx
+import React from "react";
+import Image from "next/image";
+import Container from "../ui/Container";
+import ReactPlayer from "react-player";
+import {
+  officialAnthemYouTubeLink,
+} from "../../lib/constants/links";
+function Welcome() {
+  return (
+    <>
+      <div className="bg-rose text-purple  " id="welcome">
+        <Container className="mx-0 px-0">
+          <h1 className="text_outline text-orange font-mystery text-center mb-8 md:py-10">
+            Welcome to the <span className=" y_decoration">y</span>ippi
+            <span className=" y_decoration">y</span>ay World!
+          </h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-8 mx-auto px-6 md:px-8 md:mx-4 lg:-mb-24 ">
+            <div>
+              <p>
+                Hi, we are YippiYay girls, and in a world full of princesses and
+                superheroes, we are the heroines of our own worlds. We are here
+                to show you how beautiful being <b>you</b> can be. Dare to
+                choose your dreams and make them big because <b>you</b> can make
+                them come true!
+              </p>
+            </div>
+            <div>
+              <p>
+                Forget about the fairytales that are all about fluffy gowns,
+                magic wands, and spells that will make your dreams come true. In
+                your story, you make that magic come true by being yourself.
+                Pick your colors, choose a path and be brave enough to get
+                creative. Listen to our official anthem:
+              </p>
+            </div>
+          </div>
+          <div className="player-wrapper z-10 ">
+            <ReactPlayer
+              className="react-player "
+              url={officialAnthemYouTubeLink}
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </Container>
+      </div>
+      <div className="bg-white z-0 overflow-hidden -mt-6 pb-12 md:-mt-24 lg:-mt-26  xl:-mt-48 ">
+        <Image
+          src="/assets/bordure/1.png"
+          width={1920}
+          height={200}
+          alt="Girls"
+          priority={true}
+        />
+      </div>
+    </>
+  );
+}
+
+export default Welcome;
+
+```

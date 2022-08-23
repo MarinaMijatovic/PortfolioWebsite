@@ -1,0 +1,51 @@
+
+#### Short project description
+E-diary for math&programming school. The application enables records of students' attendance by subjects, lecturers' insight into the statistics of classes held, as well as the calculation of earnings and the calculation of students' expenses.
+#### Technologies
+Flutter, Firebase
+
+
+#### Approximate project time duration:
+160h
+
+
+#### Code example
+```jsx
+import "package:flutter/material.dart";
+import "package:knowlogy/constants.dart";
+import "package:knowlogy/screens/login_screen.dart";
+import "package:knowlogy/screens/admin_screen.dart";
+
+void main() {
+  runApp(Knowlogy());
+}
+
+final ThemeData mainAppTheme = ThemeData(
+  appBarTheme: AppBarTheme(
+    backgroundColor: kAppBarColour,
+    centerTitle: true,
+  ),
+  scaffoldBackgroundColor: kScaffoldBackgroundColour,
+);
+
+class Knowlogy extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: mainAppTheme.copyWith(
+        colorScheme: mainAppTheme.colorScheme.copyWith(
+          primary: kPrimaryColour,    // We set here the colour of ModalProgressHUD spinner
+          onPrimary: kDefaultTextColour,    // This is the contrast colour to primary colour
+          secondary: kMainThemeAccentColour,    // We set here the colour of FAB
+        ),
+      ),
+      initialRoute: LoginScreen.id,
+      routes: {
+        LoginScreen.id: (context) => LoginScreen(),
+        AdminScreen.id: (context) => AdminScreen(),
+      }
+    );
+  }
+}
+
+```

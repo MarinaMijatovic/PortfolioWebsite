@@ -23,8 +23,10 @@ import {
 import FacebookIconLink from "components/common/FacebookIconLink";
 import InstagramIconLink from "components/common/InstagramIconLink";
 import TwitterIconLink from "components/common/TwitterIconLink";
+import LinkedInIconLink from "components/common/LinkedInIconLink";
 import ContainerGrid from "components/common/ContainerGrid";
 import ExpandMoreIconButton from "components/common/ExpandMoreIconButton";
+import { LinkedIn } from "@mui/icons-material";
 // type
 interface AboutProps {}
 
@@ -102,7 +104,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
                 objectFit="cover"
                 objectPosition="center center"
                 onLoad={() => setIsLoaded(true)}
-                src="/profile.jpg"
+                src="/Ja3.jpg"
               />
               {!isLoaded && (
                 <Skeleton
@@ -208,6 +210,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
                   <FacebookIconLink />
                   <InstagramIconLink />
                   <TwitterIconLink />
+                  <LinkedInIconLink/>
                 </div>
               </CustomCardActions>
             </Card>
