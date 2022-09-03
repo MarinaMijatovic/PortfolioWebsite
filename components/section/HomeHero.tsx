@@ -22,7 +22,7 @@ const HomeHero: React.FunctionComponent<HomeHeroProps> = (props) => {
       <Typography component="p" variant="h5" color="text.secondary">
         Hello, I&apos;m
       </Typography>
-      <Typography component="h1" variant="h2" fontWeight="bold">
+      <Typography component="h1" variant="h2" fontWeight="bold" paddingLeft={10}>
         Marina Mijatović
       </Typography>
       <Box color="text.secondary">
